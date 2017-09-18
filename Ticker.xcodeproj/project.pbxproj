@@ -14,6 +14,8 @@
 		A2E3899D1F6F8EDE00C7CAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E3899B1F6F8EDE00C7CAD0 /* LaunchScreen.storyboard */; };
 		A2E389A81F6F8EDE00C7CAD0 /* TickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389A71F6F8EDE00C7CAD0 /* TickerTests.swift */; };
 		A2E389B31F6F8EDE00C7CAD0 /* TickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389B21F6F8EDE00C7CAD0 /* TickerUITests.swift */; };
+		A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */; };
+		A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A2E389AE1F6F8EDE00C7CAD0 /* TickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E389B21F6F8EDE00C7CAD0 /* TickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUITests.swift; sourceTree = "<group>"; };
 		A2E389B41F6F8EDE00C7CAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevenshteinDistance.swift; sourceTree = "<group>"; };
+		A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenshteinDistanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				A2E389991F6F8EDE00C7CAD0 /* Assets.xcassets */,
 				A2E3899B1F6F8EDE00C7CAD0 /* LaunchScreen.storyboard */,
 				A2E3899E1F6F8EDE00C7CAD0 /* Info.plist */,
+				A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				A2E389A71F6F8EDE00C7CAD0 /* TickerTests.swift */,
 				A2E389A91F6F8EDE00C7CAD0 /* Info.plist */,
+				A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */,
 			);
 			path = TickerTests;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */,
 				A2E389951F6F8EDE00C7CAD0 /* ViewController.swift in Sources */,
 				A2E389931F6F8EDE00C7CAD0 /* AppDelegate.swift in Sources */,
 			);
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */,
 				A2E389A81F6F8EDE00C7CAD0 /* TickerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
