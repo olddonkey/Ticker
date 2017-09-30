@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C384441F70C377002DF494 /* TickerColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C384431F70C377002DF494 /* TickerColumn.swift */; };
+		A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */; };
 		A2E389931F6F8EDE00C7CAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389921F6F8EDE00C7CAD0 /* AppDelegate.swift */; };
 		A2E389951F6F8EDE00C7CAD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389941F6F8EDE00C7CAD0 /* ViewController.swift */; };
 		A2E389981F6F8EDE00C7CAD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E389961F6F8EDE00C7CAD0 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		A2E389B31F6F8EDE00C7CAD0 /* TickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389B21F6F8EDE00C7CAD0 /* TickerUITests.swift */; };
 		A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */; };
 		A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */; };
+		A2E3CB901F7F489500FBD859 /* TickerDrawMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2C384431F70C377002DF494 /* TickerColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerColumn.swift; sourceTree = "<group>"; };
+		A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDrawMetrics.swift; sourceTree = "<group>"; };
 		A2E3898F1F6F8EDE00C7CAD0 /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E389921F6F8EDE00C7CAD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E389941F6F8EDE00C7CAD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		A2E389B41F6F8EDE00C7CAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevenshteinDistance.swift; sourceTree = "<group>"; };
 		A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenshteinDistanceTests.swift; sourceTree = "<group>"; };
+		A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDrawMetricsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 				A2E3899B1F6F8EDE00C7CAD0 /* LaunchScreen.storyboard */,
 				A2E3899E1F6F8EDE00C7CAD0 /* Info.plist */,
 				A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */,
+				A2C384431F70C377002DF494 /* TickerColumn.swift */,
+				A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -118,6 +126,7 @@
 				A2E389A71F6F8EDE00C7CAD0 /* TickerTests.swift */,
 				A2E389A91F6F8EDE00C7CAD0 /* Info.plist */,
 				A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */,
+				A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */,
 			);
 			path = TickerTests;
 			sourceTree = "<group>";
@@ -265,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */,
 				A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */,
+				A2C384441F70C377002DF494 /* TickerColumn.swift in Sources */,
 				A2E389951F6F8EDE00C7CAD0 /* ViewController.swift in Sources */,
 				A2E389931F6F8EDE00C7CAD0 /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E3CB901F7F489500FBD859 /* TickerDrawMetricsTests.swift in Sources */,
 				A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */,
 				A2E389A81F6F8EDE00C7CAD0 /* TickerTests.swift in Sources */,
 			);
