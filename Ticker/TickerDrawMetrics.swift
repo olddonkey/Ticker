@@ -8,8 +8,6 @@
 
 import UIKit
 
-public let EMPTY_CHAR: Character = Character.init(UnicodeScalar(0))
-
 class TickerDrawMetrics {
     
     var font: UIFont
@@ -25,7 +23,7 @@ class TickerDrawMetrics {
     func getCharWidth(character: Character) -> CGFloat {
         let fontAttributes = [NSAttributedStringKey.font: font]
         
-        if character == EMPTY_CHAR {
+        if character == TickerUtils.EMPTY_CHAR {
             return 0
         }
         

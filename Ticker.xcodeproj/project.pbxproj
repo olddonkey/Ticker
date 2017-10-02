@@ -19,6 +19,8 @@
 		A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */; };
 		A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */; };
 		A2E3CB901F7F489500FBD859 /* TickerDrawMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */; };
+		A2E3CB921F806B3C00FBD859 /* TickerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */; };
+		A2E3CB941F80785B00FBD859 /* TickerUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB931F80785B00FBD859 /* TickerUtilsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevenshteinDistance.swift; sourceTree = "<group>"; };
 		A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenshteinDistanceTests.swift; sourceTree = "<group>"; };
 		A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDrawMetricsTests.swift; sourceTree = "<group>"; };
+		A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUtils.swift; sourceTree = "<group>"; };
+		A2E3CB931F80785B00FBD859 /* TickerUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUtilsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				A2E389C01F6F8F0000C7CAD0 /* LevenshteinDistance.swift */,
 				A2C384431F70C377002DF494 /* TickerColumn.swift */,
 				A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */,
+				A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				A2E389A91F6F8EDE00C7CAD0 /* Info.plist */,
 				A2E389C21F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift */,
 				A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */,
+				A2E3CB931F80785B00FBD859 /* TickerUtilsTests.swift */,
 			);
 			path = TickerTests;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */,
 				A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */,
 				A2C384441F70C377002DF494 /* TickerColumn.swift in Sources */,
+				A2E3CB921F806B3C00FBD859 /* TickerUtils.swift in Sources */,
 				A2E389951F6F8EDE00C7CAD0 /* ViewController.swift in Sources */,
 				A2E389931F6F8EDE00C7CAD0 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +296,7 @@
 				A2E3CB901F7F489500FBD859 /* TickerDrawMetricsTests.swift in Sources */,
 				A2E389C31F6F8F2100C7CAD0 /* LavenshteinDistanceTests.swift in Sources */,
 				A2E389A81F6F8EDE00C7CAD0 /* TickerTests.swift in Sources */,
+				A2E3CB941F80785B00FBD859 /* TickerUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
