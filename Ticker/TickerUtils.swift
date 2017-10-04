@@ -11,7 +11,7 @@ import Foundation
 class TickerUtils {
     public static let EMPTY_CHAR: Character = Character(UnicodeScalar(0))
     
-    func getDefaultListForUSCurrency() -> [Character]{
+    public static func getDefaultListForUSCurrency() -> [Character]{
         let indexOf0 = Character("0").asciiValue
         let indexOfPeriod = Character(".").asciiValue
         let indexOfSlash = Character("/").asciiValue
@@ -28,9 +28,31 @@ class TickerUtils {
             charList.insert(Character(charValue), at: (Int)(i - start))
         }
         
-        charList.insert(TickerUtils.EMPTY_CHAR, at: Int(indexOf0))
-        charList.insert(TickerUtils.EMPTY_CHAR, at: Int(indexOf0))
-        charList.insert(TickerUtils.EMPTY_CHAR, at: Int(indexOf0))
+        charList.insert(TickerUtils.EMPTY_CHAR, at: Int(indexOf0-start))
+        charList.rearrange(from: Int(indexOfSlash-start), to: Int(indexOfPeriod-start))
+        
+        for i in (indexOf0 + 1)..<(end+1) {
+            guard let scalar = UnicodeScalar(i-1) else {
+                print("Can't init unicode scalar")
+                return [Character]()
+            }
+            charList.insert(Character(scalar), at: Int(i-start))
+        }
+        
+        return charList
+    }
+    
+    public static func getDefaultNumberList() -> [Character] {
+        var charList: [Character] = [Character]()
+        charList.append(TickerUtils.EMPTY_CHAR)
+        charList.append(Character("."))
+        for i in 0..<10 {
+            guard let scalar = UnicodeScalar(i+48) else {
+                print("Can't init unicode scalar")
+                return [Character]()
+            }
+            charList.insert(Character(scalar), at: Int(i+2))
+        }
         return charList
     }
 }
@@ -46,5 +68,11 @@ extension Character {
             return 0
         }
         return value
+    }
+}
+
+extension Array {
+    mutating func rearrange(from: Int, to: Int) {
+        insert(remove(at: from), at: to)
     }
 }

@@ -22,8 +22,13 @@ class TickerUtilsTests: XCTestCase {
     }
     
     func testGetDefaultListForUSCurrency() {
-        let utils = TickerUtils()
-        utils.getDefaultListForUSCurrency()
+        // Placeholder for now, will update when find better way to test this
+        print(TickerUtils.getDefaultListForUSCurrency())
+    }
+    
+    func testGetDefaultNumberList() {
+        // Placeholder for now, will update when find better way to test this
+        print(TickerUtils.getDefaultNumberList())
     }
     
 }
