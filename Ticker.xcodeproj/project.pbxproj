@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A255DFB71F89EE0F007F0D1E /* TickerColumnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A255DFB61F89EE0F007F0D1E /* TickerColumnManager.swift */; };
 		A2C384441F70C377002DF494 /* TickerColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C384431F70C377002DF494 /* TickerColumn.swift */; };
 		A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */; };
 		A2E389931F6F8EDE00C7CAD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E389921F6F8EDE00C7CAD0 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A255DFB61F89EE0F007F0D1E /* TickerColumnManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerColumnManager.swift; sourceTree = "<group>"; };
 		A2C384431F70C377002DF494 /* TickerColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerColumn.swift; sourceTree = "<group>"; };
 		A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDrawMetrics.swift; sourceTree = "<group>"; };
 		A2E3898F1F6F8EDE00C7CAD0 /* Ticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				A2C384431F70C377002DF494 /* TickerColumn.swift */,
 				A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */,
 				A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */,
+				A255DFB61F89EE0F007F0D1E /* TickerColumnManager.swift */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */,
 				A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */,
+				A255DFB71F89EE0F007F0D1E /* TickerColumnManager.swift in Sources */,
 				A2C384441F70C377002DF494 /* TickerColumn.swift in Sources */,
 				A2E3CB921F806B3C00FBD859 /* TickerUtils.swift in Sources */,
 				A2E389951F6F8EDE00C7CAD0 /* ViewController.swift in Sources */,
