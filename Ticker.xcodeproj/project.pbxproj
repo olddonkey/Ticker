@@ -22,6 +22,7 @@
 		A2E3CB901F7F489500FBD859 /* TickerDrawMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */; };
 		A2E3CB921F806B3C00FBD859 /* TickerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */; };
 		A2E3CB941F80785B00FBD859 /* TickerUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E3CB931F80785B00FBD859 /* TickerUtilsTests.swift */; };
+		A2F2BBD91F8CA1E500D95890 /* TickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F2BBD81F8CA1E500D95890 /* TickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A2E3CB8F1F7F489500FBD859 /* TickerDrawMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDrawMetricsTests.swift; sourceTree = "<group>"; };
 		A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUtils.swift; sourceTree = "<group>"; };
 		A2E3CB931F80785B00FBD859 /* TickerUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerUtilsTests.swift; sourceTree = "<group>"; };
+		A2F2BBD81F8CA1E500D95890 /* TickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				A2C384451F70C442002DF494 /* TickerDrawMetrics.swift */,
 				A2E3CB911F806B3C00FBD859 /* TickerUtils.swift */,
 				A255DFB61F89EE0F007F0D1E /* TickerColumnManager.swift */,
+				A2F2BBD81F8CA1E500D95890 /* TickerView.swift */,
 			);
 			path = Ticker;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F2BBD91F8CA1E500D95890 /* TickerView.swift in Sources */,
 				A2C384461F70C442002DF494 /* TickerDrawMetrics.swift in Sources */,
 				A2E389C11F6F8F0000C7CAD0 /* LevenshteinDistance.swift in Sources */,
 				A255DFB71F89EE0F007F0D1E /* TickerColumnManager.swift in Sources */,
