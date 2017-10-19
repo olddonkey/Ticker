@@ -76,3 +76,9 @@ extension Array {
         insert(remove(at: from), at: to)
     }
 }
+
+func synchronized(lock: AnyObject, closure: () -> ()) {
+    objc_sync_enter(lock)
+    closure()
+    objc_sync_exit(lock)
+}
